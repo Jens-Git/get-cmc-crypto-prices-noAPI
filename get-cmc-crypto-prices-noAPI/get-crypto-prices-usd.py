@@ -6,7 +6,7 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-currency = ['bitcoin', 'ethereum', 'dogecoin', 'tether']
+currency = ['bitcoin', 'ethereum', 'dogecoin', 'tether', 'zcash']
 
 def parse_page(currency):
     page = requests.get('https://coinmarketcap.com/currencies/' + currency)
